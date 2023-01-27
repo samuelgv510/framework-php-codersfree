@@ -13,3 +13,5 @@ Route::get('/contact', function () {
 Route::get('/contact', function () {
     echo 'hola desde la página acerca de';
 });
+
+Route::dispatch();
